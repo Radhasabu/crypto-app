@@ -19,8 +19,7 @@ const Footer = () => {
             letterSpacing={"widest"}
             textAlign={["center", "left"]}
           >
-            We are the best crypto trading app in India, we provide our guidance
-            at a very cheap price.
+            Want to know more about the top cryptocurrency so you can buy the best crypto in 2023? So here is best crypto trading application to help you in finding the right crypto.
           </Text>
         </VStack>
 
@@ -31,7 +30,7 @@ const Footer = () => {
             height="120px"
             borderRadius="50%"
           />
-          <Text>Our Founder</Text>
+          <Text>Radhika</Text>
         </VStack>
       </Stack>
     </Box>
