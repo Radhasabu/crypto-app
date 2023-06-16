@@ -34,7 +34,7 @@ const CoinDetails = () => {
   const [chartArray, setChartArray] = useState([]);
 
   const currencySymbol =
-  currency === "inr" ? "₹" : currency === "eur" ? "€" : "$";
+    currency === "inr" ? "₹" : currency === "eur" ? "€" : "$";
 
   const btns = ["24h", "7d", "14d", "30d", "60d", "200d", "1y", "max"];
 
@@ -88,7 +88,6 @@ const CoinDetails = () => {
         const { data: chartData } = await axios.get(
           `${server}/coins/${params.id}/market_chart?vs_currency=${currency}&days=${days}`
         );
-        console.log(data);
         setCoin(data);
         setChartArray(chartData.prices);
         setLoading(false);
